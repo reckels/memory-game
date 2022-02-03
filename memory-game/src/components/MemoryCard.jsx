@@ -19,6 +19,12 @@ class MemoryCard extends React.Component {
                 </div>
             </div>
         )
+
+        return(
+            <div class="MemoryCard">
+                <img src="https://www.digitalcrafts.com/img/digitalcrafts-logo-white-y.png" alt="logo" />
+            </div>
+        )
     }
 }
 
