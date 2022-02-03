@@ -2,14 +2,23 @@ import React from 'react';
 import './MemoryCard.css';
 
 class MemoryCard extends React.Component {
+    constructor() {
+        super();
+        this.state = {isFlipped: false};
+    }
+    clickHandler() {
+        this.setState(({isFlipped}) => ({
+            isFlipped: !isFlipped
+        }));
+    }
     render(){
         return(
-            <div class="MemoryCard">
-                <div class="MemoryCardInner">
-                    <div class="MemoryCardBack">
+            <div className="MemoryCard" onClick={this.clickHandler}>
+                <div className="MemoryCardInner">
+                    <div className="MemoryCardBack">
                         <img src="https://www.digitalcrafts.com/img/digitalcrafts-logo-white-y.png" alt="logo" />
                     </div>
-                    <div class="MemoryCardFront">
+                    <div className="MemoryCardFront">
                         Δ
                     </div>
                 </div>

@@ -20,14 +20,6 @@
 }
 
 .MemoryCardBack {
-    display: inline-block;
-    width: 150px;
-    height: 80px;
-    margin: 3px;
-    border-radius: 5px;
-    border: solid 3px navy;
-    cursor: pointer;
-    color: white;
     background: repeating-linear-gradient(
         45deg,
         #606dbc,
