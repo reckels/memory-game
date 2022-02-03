@@ -2,6 +2,7 @@
     display: inline-block;
     width: 150px;
     height: 80px;
+
     margin: 5px;
     cursor: pointer;
     position: relative;
@@ -29,6 +30,7 @@
     );
 }
 
+
 .MemoryCardBack,
 .MemoryCardFront {
     position: absolute;
@@ -46,6 +48,7 @@
 .MemoryCardInner.Flipped {
     transform: rotateY(180deg);
 }
+
 
 img {
     width: 100%;
