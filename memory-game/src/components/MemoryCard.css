@@ -43,7 +43,7 @@
     transform: rotateY(180deg);
 }
 
-.MemoryCardInner.flipped {
+.MemoryCardInner.Flipped {
     transform: rotateY(180deg);
 }
 
